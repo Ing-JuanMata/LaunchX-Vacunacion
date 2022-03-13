@@ -177,5 +177,46 @@ main .extra-content {
 
 /* CONTACTO EMERGENCIA */
 .emergency-contact {
-  padding: 0 100px;
+  padding: 100px;
+}
+
+.emergency-contact-header{
+  width: 50%;
+}
+
+.emergency-contact-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emergency-contact-info .img{
+  width: 40%;
+}
+
+.contacts{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 100px;
+  width: 40%;
+}
+
+.contact i{
+  font-size: 60px;
+  color: var(--Color-principal);
+}
+
+.contact-data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.button{
+  display: inline-block;
+  padding: 20px;
+  background-color: var(--Color-principal);
+  color: whitesmoke;
 }
