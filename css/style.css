@@ -156,22 +156,22 @@ main .extra-content {
   -moz-box-shadow: 0px 0px 127px -3px rgba(109, 123, 147, 0.1);
 }
 
-.thing-header{
+.thing-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.thing-header p{
+.thing-header p {
   font-weight: var(--Ancho-Textos-Negrita);
 }
 
-.thing-header i{
+.thing-header i {
   color: var(--Color-principal);
   font-size: 30px;
 }
 
-.thing-header .gray{
+.thing-header .gray {
   color: var(--Color-Textos);
 }
 
@@ -180,21 +180,21 @@ main .extra-content {
   padding: 100px;
 }
 
-.emergency-contact-header{
+.emergency-contact-header {
   width: 50%;
 }
 
-.emergency-contact-info{
+.emergency-contact-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.emergency-contact-info .img{
+.emergency-contact-info .img {
   width: 40%;
 }
 
-.contacts{
+.contacts {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -202,21 +202,71 @@ main .extra-content {
   width: 40%;
 }
 
-.contact i{
+.contact i {
   font-size: 60px;
   color: var(--Color-principal);
 }
 
-.contact-data{
+.contact-data {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 30px;
 }
 
-.button{
+.button {
   display: inline-block;
   padding: 20px;
   background-color: var(--Color-principal);
   color: whitesmoke;
+}
+
+/* FOOTER */
+footer {
+  background-color: #eef3ff;
+}
+
+.vac-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.vac-info-1 {
+  padding: 50px;
+  width: 50%;
+}
+
+.vac-info-1 p {
+  font-size: 25px;
+}
+
+.vac-info-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list p {
+  font-size: 25px;
+}
+.list-title {
+  color: var(--Color-Titulos);
+  font-weight: var(--Ancho-Textos-Negrita);
+  font-size: 30px;
+}
+
+.footer-extra p{
+  font-weight: var(--Ancho-Textos-Negrita);
+}
+
+.footer-extra,
+.footer-extra-l {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-extra-l{
+  justify-content: space-between;
+  width: 20%;
 }
