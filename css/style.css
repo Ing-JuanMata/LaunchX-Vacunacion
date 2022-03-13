@@ -93,3 +93,35 @@ main .extra-content {
   margin-right: 7px;
   color: var(--Amarillo);
 }
+
+/* RAZONES */
+.reasons{
+  padding: 0 100px;
+}
+
+.ask{
+  width: 40%;
+}
+.benefits{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefit{
+  padding: 0 20px;
+}
+
+.benefit i{
+  font-size: 60px;
+  color: var(--Color-principal);
+}
+
+.benefit-title{
+  font-weight: var(--Ancho-Textos-Negrita);
+  font-size: 35px;
+}
+
+.benefit-text{
+  font-size: 25px;
+}
